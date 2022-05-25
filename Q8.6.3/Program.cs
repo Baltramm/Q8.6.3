@@ -65,7 +65,7 @@ namespace Q8._6._3
                     changeddirInfo = DirInfo();
                     Console.WriteLine("Файлов было удалено:{0}", origfileInfo - changedfileInfo);
                     Console.WriteLine("Папок было удалено:{0}", origdirInfo - changeddirInfo);
-                    Console.WriteLine("Размер очищенных файлов и папок:{0}",originalSize-changedSize);
+                    Console.WriteLine("Размер удаленных файлов и папок:{0}",originalSize-changedSize);
                 }
                 catch (Exception ex)
                 {
